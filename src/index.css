@@ -1,0 +1,67 @@
+.logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
+}
+
+.ant-layout-header {
+  background: #001529;
+  color: #fff;
+  text-align: center;
+  padding: 0;
+}
+
+.ant-layout-content {
+  background: #f0f2f5;
+  padding: 24px;
+  min-height: 280px;
+}
+
+.main-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.filter-container {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between the select and button */
+}
+
+.select-style {
+  flex: 1; /* This makes the select box take up available space */
+  padding: 10px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.select-style:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.Filter-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.Filter-button:hover {
+  background-color: #0056b3;
+  box-shadow: 0 0 10px rgba(0, 86, 179, 0.5);
+}
